@@ -28,20 +28,19 @@ article {
 .header {
   background-color: $color-primary;
   color: #fff;
-}
+  box-shadow: 10px 10px 12px -8px rgba(189, 189, 189, 1);
 
-.header {
   & > div {
     padding: 8px;
     margin: 0 auto;
     max-width: $max-width;
   }
 
-  .header-title {
+  &-title {
     font-size: 2.5em;
   }
 
-  .header-subtitle {
+  &-subtitle {
     font-size: 1em;
     font-weight: 100;
   }

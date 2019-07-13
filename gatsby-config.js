@@ -1,4 +1,3 @@
-
 module.exports = {
   siteMetadata: {
     title: 'Learn Gatsby',
@@ -6,6 +5,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-favicon',
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    'gatsby-plugin-postcss'
   ]
 };

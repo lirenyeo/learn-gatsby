@@ -1,6 +1,14 @@
 $max-width: 1020px;
 $color-primary: #009bac;
 
+body {
+  font-family: 'Ubuntu';
+}
+
+article {
+  min-height: calc(100vh - 180px);
+}
+
 .links {
   display: flex;
   align-items: center;
@@ -21,9 +29,20 @@ $color-primary: #009bac;
   background-color: $color-primary;
   color: #fff;
 }
-.header-container {
-  font-size: 3rem;
-  padding: 8px;
-  margin: 0 auto;
-  max-width: $max-width;
+
+.header {
+  & > div {
+    padding: 8px;
+    margin: 0 auto;
+    max-width: $max-width;
+  }
+
+  .header-title {
+    font-size: 2.5em;
+  }
+
+  .header-subtitle {
+    font-size: 1em;
+    font-weight: 100;
+  }
 }

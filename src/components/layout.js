@@ -7,8 +7,9 @@ export const Layout = ({ children }) => {
     <>
       <Header />
       <main className="layout-container">
-        {children}
+        <article>{children}</article>
         <footer>
+          <hr />
           <Link to="/">Back to Home</Link>
         </footer>
       </main>

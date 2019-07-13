@@ -3,7 +3,7 @@ import { Layout } from '../components/layout'
 import { Link } from 'gatsby'
 import '../app.scss'
 
-const HomePage = ({ data }) => {
+const HomePage = () => {
   return (
     <Layout>
       <div className="links">

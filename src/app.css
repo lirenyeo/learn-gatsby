@@ -1,0 +1,26 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.links a {
+  margin: 0.5em 1em;
+}
+
+.layout-container {
+  margin: 0 auto;
+  max-width: 1020px;
+}
+
+.header {
+  background-color: rgb(102, 51, 153);
+  color: #fff;
+}
+.header-container {
+  font-size: 3rem;
+  padding: 8px;
+  margin: 0 auto;
+  max-width: 1020px;
+}

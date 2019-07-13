@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "gatsby": "gatsby serve"
   },
   "keywords": [],
   "author": "",

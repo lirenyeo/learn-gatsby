@@ -6,10 +6,12 @@ export const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <main className="layout-container">{children}</main>
-      <footer>
-        <Link to="/">Home</Link>
-      </footer>
+      <main className="layout-container">
+        {children}
+        <footer>
+          <Link to="/">Back to Home</Link>
+        </footer>
+      </main>
     </>
   )
 }

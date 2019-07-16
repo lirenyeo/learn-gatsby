@@ -45,3 +45,13 @@ article {
     font-weight: 100;
   }
 }
+
+
+.heading {
+  display: flex;
+  align-items: center;
+
+  :nth-child(2) {
+    margin: 0 .6em;
+  }
+}

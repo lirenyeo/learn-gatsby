@@ -2,10 +2,10 @@ import React from 'react'
 import { Header } from './header'
 import { Link } from 'gatsby'
 
-export const Layout = ({ children }) => {
+export const Layout = ({ children, forBlog = false }) => {
   return (
     <>
-      <Header />
+      <Header forBlog={forBlog} />
       <main className="layout-container">
         <article>{children}</article>
         <footer>

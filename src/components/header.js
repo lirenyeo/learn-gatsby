@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 
-export const Header = () => {
+export const Header = ({ forBlog }) => {
   const {
     site: {
       siteMetadata: { title, description }
@@ -19,7 +19,7 @@ export const Header = () => {
 
   return (
     <header className="header">
-      <div className="header-title">{title}</div>
+      <div className="header-title">{forBlog ? 'Blog' : title}</div>
       <div className="header-subtitle">{description}</div>
     </header>
   )

@@ -9,6 +9,8 @@ const HomePage = () => {
       <div className="links">
         <Link to="/about-me">About Me</Link>
         <Link to="/pricing">Pricing</Link>
+        <Link to="/blogs">Blogs</Link>
+        <Link to="/allcodes">All Codes</Link>
       </div>
       <h1>Home Page</h1>
       <p>
